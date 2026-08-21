@@ -12,7 +12,15 @@ print("You are", age,(50) "years old.")
 print("You are", age,(60) "years old.")
 
 
-if age >= 18:
+if age >= 10:
+    print("You are an adult.")
+else:
+    print("You are a minor.")
+if age >= 20:
+    print("You are an adult.")
+else:
+    print("You are a minor.")
+if age >= 30:
     print("You are an adult.")
 else:
     print("You are a minor.")
